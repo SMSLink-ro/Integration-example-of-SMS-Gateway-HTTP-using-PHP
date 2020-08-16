@@ -7,7 +7,7 @@ SMSLink.ro allows you to send SMS to all mobile networks in Romania and also to 
 
 1. Create an account on [SMSLink.ro](https://www.smslink.ro/inregistrare/)
 2. Create a SMS Gateway connection at [SMSLink.ro / SMS Gateway / Configuration & Settings](https://www.smslink.ro/sms/gateway/setup.php). Each SMS Gateway connection is a pair of Connection ID and Password. 
-3. See Usage Examples for the SMSGateway() class starting on line 350 in main.php.
+3. See Usage Examples for the SMSGateway() class starting on line 353 in main.php file from the repository.
 
 ## Supported Functions
 
