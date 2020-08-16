@@ -13,7 +13,7 @@
  *
  *   Usage:
  *   
- *     See Usage Examples for the SMSGateway() class starting on line 350
+ *     See Usage Examples for the SMSGateway() class starting on line 353
  *
  *     Get your SMSLink / SMS Gateway Connection ID and Password from 
  *         https://www.smslink.ro/get-api-key/
