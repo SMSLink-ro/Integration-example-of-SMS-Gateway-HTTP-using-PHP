@@ -1,4 +1,5 @@
 <?php
+
 /**
  * 
  *   SMS Gateway (HTTP) integration with SMSLink.ro
@@ -13,7 +14,7 @@
  *
  *   Usage:
  *   
- *     See Usage Examples for the SMSGateway() class starting on line 353
+ *     See Usage Examples for the SMSGateway() class starting on line 354
  *
  *     Get your SMSLink / SMS Gateway Connection ID and Password from 
  *         https://www.smslink.ro/get-api-key/
