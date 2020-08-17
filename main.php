@@ -14,7 +14,7 @@
  *
  *   Usage:
  *   
- *     See Usage Examples for the SMSGateway() class starting on line 354
+ *     See Usage Examples for the SMSLinkSMSGateway() class starting on line 353
  *
  *     Get your SMSLink / SMS Gateway Connection ID and Password from 
  *         https://www.smslink.ro/get-api-key/
@@ -24,7 +24,7 @@
  *   
  */
 
-class SMSGateway
+class SMSLinkSMSGateway
 {        
     private $connection_id = null;
     private $password      = null;
@@ -40,7 +40,7 @@ class SMSGateway
     /**
      *   Initialize SMSLink - SMS Gateway
      *
-     *   Initializing SMS Gateway will require the parameters $connection_id and $password. $connection_id and $password can be generated at 
+     *   Initializing iPay will require the parameters $connection_id and $password. $connection_id and $password can be generated at 
      *   https://www.smslink.ro/sms/gateway/setup.php after authenticated with your account credentials.
      *
      *   @param string    $connection_id     SMSLink - SMS Gateway - Connection ID
@@ -353,7 +353,7 @@ class SMSGateway
 
 /*
  * 
- *     Usage Examples for the SMSGateway() class 
+ *     Usage Examples for the SMSLinkSMSGateway() class 
  * 
  *  
  */
@@ -369,7 +369,7 @@ class SMSGateway
  *       
  *       
  */
-$SMSGateway = new SMSGateway("... My Connection ID ...", "... My Connection Password ...");
+$SMSGateway = new SMSLinkSMSGateway("MyConnectionID", "MyConnectionPassword");
 
 /*
  *     Sets the method in which the parameters are sent to SMS Gateway
