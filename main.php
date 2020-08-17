@@ -14,7 +14,7 @@
  *
  *   Usage:
  *   
- *     See Usage Examples for the SMSLinkSMSGateway() class starting on line 353
+ *     See Usage Examples for the SMSLinkSMSGateway() class starting on line 354
  *
  *     Get your SMSLink / SMS Gateway Connection ID and Password from 
  *         https://www.smslink.ro/get-api-key/
@@ -395,7 +395,7 @@ echo "My Account Balance is: ".$accountBalance["national-SMS"]." national SMS, "
 /*
  *     Sends SMS #1
  */
-$messageId = $SMSGateway->sendMessage("07xyzzzzzz", "My first hello world message.");
+$messageId = $SMSGateway->sendMessage("0723178275", "My first hello world message.");
 
 if ($messageId == false) echo "Message sent failed. Log: ".$SMSGateway->getLastLogMessage().".<br />"; 
      else echo "Message successfully sent with ID: ".$messageId.".<br />";
@@ -403,7 +403,7 @@ if ($messageId == false) echo "Message sent failed. Log: ".$SMSGateway->getLastL
 /*
  *     Sends SMS #2
  */
-$messageId = $SMSGateway->sendMessage("07xyzzzzzz", "My second hello world message.");
+$messageId = $SMSGateway->sendMessage("0723178275", "My second hello world message.");
 
 if ($messageId == false) echo "Message sent failed. Log: ".$SMSGateway->getLastLogMessage().".<br />";
     else echo "Message successfully sent with ID: ".$messageId.".<br />";
