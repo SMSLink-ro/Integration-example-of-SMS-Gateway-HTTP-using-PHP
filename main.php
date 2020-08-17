@@ -40,7 +40,7 @@ class SMSGateway
     /**
      *   Initialize SMSLink - SMS Gateway
      *
-     *   Initializing iPay will require the parameters $connection_id and $password. $connection_id and $password can be generated at 
+     *   Initializing SMS Gateway will require the parameters $connection_id and $password. $connection_id and $password can be generated at 
      *   https://www.smslink.ro/sms/gateway/setup.php after authenticated with your account credentials.
      *
      *   @param string    $connection_id     SMSLink - SMS Gateway - Connection ID
