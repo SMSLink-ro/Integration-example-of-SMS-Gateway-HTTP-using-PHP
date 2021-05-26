@@ -21,7 +21,7 @@ SMSLink.ro allows you to send SMS to all mobile networks in Romania and also to 
  
 ## System Requirements 
 
-PHP 5 with 
+PHP 5 or greater with 
   CURL enabled or file_get_contents with allow_url_fopen to be set to 1 in php.ini
     
 ## Documentation
